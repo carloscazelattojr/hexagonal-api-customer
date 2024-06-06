@@ -2,6 +2,16 @@ package br.com.carlosjunior.hexagonalcustomer.application.core.domain;
 
 public class Customer {
 
+    private String id;
+
+    private String name;
+
+    private Address address;
+
+    private String cpf;
+
+    private Boolean isValidCpf;
+
     public Customer() {
         this.isValidCpf = false;
     }
@@ -14,15 +24,6 @@ public class Customer {
         this.isValidCpf = isValidCpf;
     }
 
-    private String id;
-
-    private String name;
-
-    private Address address;
-
-    private String cpf;
-
-    private Boolean isValidCpf;
 
     public String getId() {
         return id;

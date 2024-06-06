@@ -9,6 +9,7 @@ import org.mapstruct.Mapping;
 public interface CustomerMessageMapper {
 
     @Mapping(target = "address", ignore = true)
+    @Mapping(source="name", target = "name")
     Customer toCustomer(CustomerMessage customerMessage);
 
 }
