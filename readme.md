@@ -1,6 +1,6 @@
 # Hexagonal API - Customer
 
-API hexagonal com utilização do Kafka, MongoDB e Wiremock
+API hexagonal com utilização do Kafka, MongoDB, Wiremock e ArchUnit
 
 ## Wiremock
 
